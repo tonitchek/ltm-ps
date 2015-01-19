@@ -1,4 +1,9 @@
 ltm-ps
 ======
+Power Supply board based on Linear Technology uModule (LTM).
 
-Power Supply board based on Linera Technology uModule (LTM). Buck-Boost feature
+
+Contents
+========
+circuit_board :containing the design of the PCB.
+simu          :simulation of the design based on LTSpiceIV
