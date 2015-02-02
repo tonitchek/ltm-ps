@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 02 Feb 2015 02:27:46 PM CET
+EESchema Schematic File Version 2  date Mon 02 Feb 2015 03:01:30 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,6 +44,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 4500 4100 0    60   ~ 12
+- R3 sets the detection current regulation\nduring PoE detection phase. It is set by the\nmanufacturer (see NCP1092 datasheet)\n- R4 sets the PoE class. Datashett gives\nresistance values for each class. 4.42k is for\nclass 0 (13W)\n- R5 sets the inrush current limit
 Text Label 1750 950  2    60   ~ 0
 VAUX
 Connection ~ 5400 1750
@@ -72,11 +74,11 @@ Wire Wire Line
 	7350 3200 7350 3350
 Wire Wire Line
 	7350 3350 6450 3350
-Connection ~ 4800 6350
+Connection ~ 5300 6900
 Wire Wire Line
-	4800 6400 4800 5250
+	5300 6950 5300 5800
 Wire Wire Line
-	5850 6850 5850 7100
+	6350 7400 6350 7650
 Wire Wire Line
 	8100 3450 7450 3450
 Wire Wire Line
@@ -115,54 +117,54 @@ Wire Wire Line
 	2350 2550 2200 2550
 Wire Wire Line
 	2350 4050 2200 4050
-Connection ~ 5750 4550
+Connection ~ 6250 5100
 Wire Wire Line
-	5750 4550 5750 4750
-Connection ~ 5950 4550
+	6250 5100 6250 5300
+Connection ~ 6450 5100
 Wire Wire Line
-	5950 4550 5950 4750
+	6450 5100 6450 5300
 Wire Wire Line
-	6150 4750 6150 4550
+	6650 5300 6650 5100
 Wire Wire Line
-	5550 4750 5550 4550
-Connection ~ 4800 5550
+	6050 5300 6050 5100
+Connection ~ 5300 6100
 Wire Wire Line
-	4800 5550 5000 5550
-Connection ~ 4800 5350
+	5300 6100 5500 6100
+Connection ~ 5300 5900
 Wire Wire Line
-	4800 5350 5000 5350
-Connection ~ 4800 5850
+	5300 5900 5500 5900
+Connection ~ 5300 6400
 Wire Wire Line
-	4800 5850 5000 5850
-Connection ~ 4800 6050
+	5300 6400 5500 6400
+Connection ~ 5300 6600
 Wire Wire Line
-	4800 6050 5000 6050
-Connection ~ 4800 6250
+	5300 6600 5500 6600
+Connection ~ 5300 6800
 Wire Wire Line
-	4800 6250 5000 6250
-Connection ~ 6900 5400
+	5300 6800 5500 6800
+Connection ~ 7400 5950
 Wire Wire Line
-	6900 5400 6700 5400
-Connection ~ 6900 5600
+	7400 5950 7200 5950
+Connection ~ 7400 6150
 Wire Wire Line
-	6900 5600 6700 5600
-Connection ~ 6900 5800
+	7400 6150 7200 6150
+Connection ~ 7400 6350
 Wire Wire Line
-	6900 5800 6700 5800
-Connection ~ 6900 6000
+	7400 6350 7200 6350
+Connection ~ 7400 6550
 Wire Wire Line
-	6900 6000 6700 6000
-Connection ~ 6900 6200
+	7400 6550 7200 6550
+Connection ~ 7400 6750
 Wire Wire Line
-	6900 6200 6700 6200
-Connection ~ 5650 7050
+	7400 6750 7200 6750
+Connection ~ 6150 7600
 Wire Wire Line
-	5650 6850 5650 7050
-Connection ~ 6050 7050
+	6150 7400 6150 7600
+Connection ~ 6550 7600
 Wire Wire Line
-	6050 6850 6050 7050
+	6550 7400 6550 7600
 Wire Wire Line
-	5550 6850 5550 7050
+	6050 7400 6050 7600
 Wire Wire Line
 	8100 3050 7950 3050
 Wire Wire Line
@@ -256,58 +258,58 @@ Wire Wire Line
 Wire Wire Line
 	7450 2950 8100 2950
 Wire Wire Line
-	5550 7050 6150 7050
+	6050 7600 6650 7600
 Wire Wire Line
-	6150 7050 6150 6850
-Connection ~ 5850 7050
+	6650 7600 6650 7400
+Connection ~ 6350 7600
 Wire Wire Line
-	5950 7050 5950 6850
-Connection ~ 5950 7050
+	6450 7600 6450 7400
+Connection ~ 6450 7600
 Wire Wire Line
-	5750 7050 5750 6850
-Connection ~ 5750 7050
+	6250 7600 6250 7400
+Connection ~ 6250 7600
 Wire Wire Line
-	6700 5300 6900 5300
+	7200 5850 7400 5850
 Wire Wire Line
-	6900 6300 6700 6300
+	7400 6850 7200 6850
 Wire Wire Line
-	6900 6100 6700 6100
-Connection ~ 6900 6100
+	7400 6650 7200 6650
+Connection ~ 7400 6650
 Wire Wire Line
-	6900 5900 6700 5900
-Connection ~ 6900 5900
+	7400 6450 7200 6450
+Connection ~ 7400 6450
 Wire Wire Line
-	6900 5700 6700 5700
-Connection ~ 6900 5700
+	7400 6250 7200 6250
+Connection ~ 7400 6250
 Wire Wire Line
-	6900 5500 6700 5500
-Connection ~ 6900 5500
+	7400 6050 7200 6050
+Connection ~ 7400 6050
 Wire Wire Line
-	4800 5250 5000 5250
+	5300 5800 5500 5800
 Wire Wire Line
-	4800 6350 5000 6350
+	5300 6900 5500 6900
 Wire Wire Line
-	4800 6150 5000 6150
-Connection ~ 4800 6150
+	5300 6700 5500 6700
+Connection ~ 5300 6700
 Wire Wire Line
-	4800 5950 5000 5950
-Connection ~ 4800 5950
+	5300 6500 5500 6500
+Connection ~ 5300 6500
 Wire Wire Line
-	4800 5750 5000 5750
-Connection ~ 4800 5750
+	5300 6300 5500 6300
+Connection ~ 5300 6300
 Wire Wire Line
-	4800 5450 5000 5450
-Connection ~ 4800 5450
+	5300 6000 5500 6000
+Connection ~ 5300 6000
 Wire Wire Line
-	4800 5650 5000 5650
-Connection ~ 4800 5650
+	5300 6200 5500 6200
+Connection ~ 5300 6200
 Wire Wire Line
-	6050 4550 6050 4750
-Connection ~ 6050 4550
-Connection ~ 5850 4550
+	6550 5100 6550 5300
+Connection ~ 6550 5100
+Connection ~ 6350 5100
 Wire Wire Line
-	5650 4550 5650 4750
-Connection ~ 5650 4550
+	6150 5100 6150 5300
+Connection ~ 6150 5100
 Wire Wire Line
 	6550 3450 6550 3550
 Connection ~ 1350 950 
@@ -365,12 +367,12 @@ Wire Wire Line
 Connection ~ 4950 950 
 Connection ~ 3900 950 
 Wire Wire Line
-	5550 4550 6150 4550
+	6050 5100 6650 5100
 Wire Wire Line
-	6900 5300 6900 6350
-Connection ~ 6900 6300
+	7400 5850 7400 6900
+Connection ~ 7400 6850
 Wire Wire Line
-	5850 4500 5850 4750
+	6350 5050 6350 5300
 Wire Wire Line
 	3700 2550 3700 2500
 Connection ~ 3700 2550
@@ -412,28 +414,28 @@ For the prototype version, this jumper allows to select\nwhich signal will enabl
 $Comp
 L GND #PWR03
 U 1 1 54CF696E
-P 5850 4500
-F 0 "#PWR03" H 5850 4250 60  0001 C CNN
-F 1 "GND" H 5850 4350 60  0000 C CNN
-	1    5850 4500
+P 6350 5050
+F 0 "#PWR03" H 6350 4800 60  0001 C CNN
+F 1 "GND" H 6350 4900 60  0000 C CNN
+	1    6350 5050
 	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR04
 U 1 1 54CF6965
-P 4800 6400
-F 0 "#PWR04" H 4800 6150 60  0001 C CNN
-F 1 "GND" H 4800 6250 60  0000 C CNN
-	1    4800 6400
+P 5300 6950
+F 0 "#PWR04" H 5300 6700 60  0001 C CNN
+F 1 "GND" H 5300 6800 60  0000 C CNN
+	1    5300 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
 U 1 1 54CF6961
-P 6900 6350
-F 0 "#PWR05" H 6900 6100 60  0001 C CNN
-F 1 "GND" H 6900 6200 60  0000 C CNN
-	1    6900 6350
+P 7400 6900
+F 0 "#PWR05" H 7400 6650 60  0001 C CNN
+F 1 "GND" H 7400 6750 60  0000 C CNN
+	1    7400 6900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -593,10 +595,10 @@ $EndComp
 $Comp
 L GND #PWR013
 U 1 1 54CCC93A
-P 5850 7100
-F 0 "#PWR013" H 5850 6850 60  0001 C CNN
-F 1 "GND" H 5850 6950 60  0000 C CNN
-	1    5850 7100
+P 6350 7650
+F 0 "#PWR013" H 6350 7400 60  0001 C CNN
+F 1 "GND" H 6350 7500 60  0000 C CNN
+	1    6350 7650
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8100 3350
@@ -703,10 +705,10 @@ $EndComp
 $Comp
 L LTM8050 U2
 U 2 1 54C96618
-P 5850 5800
-F 0 "U2" H 5350 6600 60  0000 C CNN
-F 1 "LTM8050" H 5850 5800 60  0000 C CNN
-	2    5850 5800
+P 6350 6350
+F 0 "U2" H 5850 7150 60  0000 C CNN
+F 1 "LTM8050" H 6350 6350 60  0000 C CNN
+	2    6350 6350
 	1    0    0    -1  
 $EndComp
 $Comp
