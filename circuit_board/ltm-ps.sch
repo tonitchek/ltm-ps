@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 02 Feb 2015 03:01:30 PM CET
+EESchema Schematic File Version 2  date Tue 03 Feb 2015 05:19:26 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2 feb 2015"
+Date "3 feb 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,6 +44,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 1000 7250
+NoConn ~ 1000 7150
+NoConn ~ 3350 7250
+NoConn ~ 3350 7150
+$Comp
+L GIGABIT_MAGJACK J1
+U 1 1 54D0F1C7
+P 2200 6100
+F 0 "J1" H 1400 7400 60  0000 C CNN
+F 1 "GIGABIT_MAGJACK" H 2250 4800 60  0000 C CNN
+	1    2200 6100
+	-1   0    0    1   
+$EndComp
 Text Notes 4500 4100 0    60   ~ 12
 - R3 sets the detection current regulation\nduring PoE detection phase. It is set by the\nmanufacturer (see NCP1092 datasheet)\n- R4 sets the PoE class. Datashett gives\nresistance values for each class. 4.42k is for\nclass 0 (13W)\n- R5 sets the inrush current limit
 Text Label 1750 950  2    60   ~ 0
@@ -388,19 +401,19 @@ vout_5V@2A
 Text Label 8750 1000 0    60   ~ 0
 vout_5V@2A
 $Comp
-L PWR_FLAG #FLG01
+L PWR_FLAG #FLG3
 U 1 1 54CF6F79
 P 2000 3400
-F 0 "#FLG01" H 2000 3495 30  0001 C CNN
+F 0 "#FLG3" H 2000 3495 30  0001 C CNN
 F 1 "PWR_FLAG" H 2000 3580 30  0000 C CNN
 	1    2000 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L PWR_FLAG #FLG4
 U 1 1 54CF6F68
 P 3700 2500
-F 0 "#FLG02" H 3700 2595 30  0001 C CNN
+F 0 "#FLG4" H 3700 2595 30  0001 C CNN
 F 1 "PWR_FLAG" H 3700 2680 30  0000 C CNN
 	1    3700 2500
 	1    0    0    -1  
@@ -412,37 +425,37 @@ R1 sets LTM8050 switching frequency to 400kHz\nR2 sets LTM8050 output voltage to
 Text Notes 7400 2350 0    60   ~ 12
 For the prototype version, this jumper allows to select\nwhich signal will enable the DC/DC converter.\n- NCP1092 PGOOD\n- VIN (VPORT_P/Auxiliary source)
 $Comp
-L GND #PWR03
+L GND #PWR6
 U 1 1 54CF696E
 P 6350 5050
-F 0 "#PWR03" H 6350 4800 60  0001 C CNN
+F 0 "#PWR6" H 6350 4800 60  0001 C CNN
 F 1 "GND" H 6350 4900 60  0000 C CNN
 	1    6350 5050
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR5
 U 1 1 54CF6965
 P 5300 6950
-F 0 "#PWR04" H 5300 6700 60  0001 C CNN
+F 0 "#PWR5" H 5300 6700 60  0001 C CNN
 F 1 "GND" H 5300 6800 60  0000 C CNN
 	1    5300 6950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR9
 U 1 1 54CF6961
 P 7400 6900
-F 0 "#PWR05" H 7400 6650 60  0001 C CNN
+F 0 "#PWR9" H 7400 6650 60  0001 C CNN
 F 1 "GND" H 7400 6750 60  0000 C CNN
 	1    7400 6900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND #PWR10
 U 1 1 54CF363A
 P 7450 3600
-F 0 "#PWR06" H 7450 3350 60  0001 C CNN
+F 0 "#PWR10" H 7450 3350 60  0001 C CNN
 F 1 "GND" H 7450 3450 60  0000 C CNN
 	1    7450 3600
 	1    0    0    -1  
@@ -450,37 +463,37 @@ $EndComp
 Text Label 10550 5350 2    60   ~ 0
 VAUX
 $Comp
-L GND #PWR07
+L GND #PWR14
 U 1 1 54CF3305
 P 10550 5500
-F 0 "#PWR07" H 10550 5250 60  0001 C CNN
+F 0 "#PWR14" H 10550 5250 60  0001 C CNN
 F 1 "GND" H 10550 5350 60  0000 C CNN
 	1    10550 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR13
 U 1 1 54CF32E7
 P 10550 4800
-F 0 "#PWR08" H 10550 4550 60  0001 C CNN
+F 0 "#PWR13" H 10550 4550 60  0001 C CNN
 F 1 "GND" H 10550 4650 60  0000 C CNN
 	1    10550 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L GND #PWR12
 U 1 1 54CF3238
 P 8750 1550
-F 0 "#PWR09" H 8750 1300 60  0001 C CNN
+F 0 "#PWR12" H 8750 1300 60  0001 C CNN
 F 1 "GND" H 8750 1400 60  0000 C CNN
 	1    8750 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L GND #PWR4
 U 1 1 54CF3233
 P 4950 1550
-F 0 "#PWR010" H 4950 1300 60  0001 C CNN
+F 0 "#PWR4" H 4950 1300 60  0001 C CNN
 F 1 "GND" H 4950 1400 60  0000 C CNN
 	1    4950 1550
 	1    0    0    -1  
@@ -488,10 +501,10 @@ $EndComp
 Text Label 2050 1650 0    60   ~ 0
 AUX
 $Comp
-L GND #PWR011
+L GND #PWR3
 U 1 1 54CF3016
 P 1950 2250
-F 0 "#PWR011" H 1950 2000 60  0001 C CNN
+F 0 "#PWR3" H 1950 2000 60  0001 C CNN
 F 1 "GND" H 1950 2100 60  0000 C CNN
 	1    1950 2250
 	1    0    0    -1  
@@ -575,10 +588,10 @@ F 1 "4.42k" V 4657 3851 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR012
+L GND #PWR8
 U 1 1 54CCE0E0
 P 6550 3550
-F 0 "#PWR012" H 6550 3300 60  0001 C CNN
+F 0 "#PWR8" H 6550 3300 60  0001 C CNN
 F 1 "GND" H 6550 3400 60  0000 C CNN
 	1    6550 3550
 	1    0    0    -1  
@@ -593,10 +606,10 @@ F 1 "24.9k" V 4557 2951 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L GND #PWR7
 U 1 1 54CCC93A
 P 6350 7650
-F 0 "#PWR013" H 6350 7400 60  0001 C CNN
+F 0 "#PWR7" H 6350 7400 60  0001 C CNN
 F 1 "GND" H 6350 7500 60  0000 C CNN
 	1    6350 7650
 	1    0    0    -1  
@@ -604,10 +617,10 @@ $EndComp
 NoConn ~ 8100 3350
 NoConn ~ 8100 3250
 $Comp
-L GND #PWR014
+L GND #PWR11
 U 1 1 54CCC8D2
 P 7800 4350
-F 0 "#PWR014" H 7800 4100 60  0001 C CNN
+F 0 "#PWR11" H 7800 4100 60  0001 C CNN
 F 1 "GND" H 7800 4200 60  0000 C CNN
 	1    7800 4350
 	1    0    0    -1  
@@ -721,37 +734,37 @@ F 1 "LTM8050" H 7700 850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND #PWR2
 U 1 1 54C01912
 P 1350 1550
-F 0 "#PWR015" H 1350 1300 60  0001 C CNN
+F 0 "#PWR2" H 1350 1300 60  0001 C CNN
 F 1 "GND" H 1350 1400 60  0000 C CNN
 	1    1350 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG016
+L PWR_FLAG #FLG2
 U 1 1 54C0190D
 P 1350 1500
-F 0 "#FLG016" H 1350 1595 30  0001 C CNN
+F 0 "#FLG2" H 1350 1595 30  0001 C CNN
 F 1 "PWR_FLAG" H 1350 1680 30  0000 C CNN
 	1    1350 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG017
+L PWR_FLAG #FLG1
 U 1 1 54C01907
 P 1350 850
-F 0 "#FLG017" H 1350 945 30  0001 C CNN
+F 0 "#FLG1" H 1350 945 30  0001 C CNN
 F 1 "PWR_FLAG" H 1350 1030 30  0000 C CNN
 	1    1350 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L GND #PWR1
 U 1 1 54C018EC
 P 1050 1050
-F 0 "#PWR018" H 1050 800 60  0001 C CNN
+F 0 "#PWR1" H 1050 800 60  0001 C CNN
 F 1 "GND" H 1050 900 60  0000 C CNN
 	1    1050 1050
 	1    0    0    -1  
