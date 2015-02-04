@@ -1,226 +1,300 @@
-# EESchema Netlist Version 1.1 created  Wed 04 Feb 2015 10:50:09 AM CET
+# EESchema Netlist Version 1.1 created  Wed 04 Feb 2015 01:11:14 PM CET
 (
- ( /54D1E09D $noname  J2 RJHSE-5080 {Lib=RJ45}
-  (    1 /TRD1+ )
-  (    2 /TRD1- )
-  (    3 /TRD2+ )
-  (    4 /TRD2- )
-  (    5 /TRD3+ )
-  (    6 /TRD3- )
-  (    7 /TRD4+ )
-  (    8 /TRD4- )
-  (    9 ? )
+ ( /54CCC53D c_2220 C1 4.7u
+  ( 1 /VPORT_P )
+  ( 2 GND )
  )
- ( /54D1D91A $noname  C3 1000p {Lib=C}
-  (    1 N-000035 )
-  (    2 GND )
+ ( /54CCC54E c_1210 C2 100u
+  ( 1 /vout_5V@2A )
+  ( 2 GND )
  )
- ( /54D1D8D1 $noname  R10 75R {Lib=R}
-  (    1 N-000035 )
-  (    2 N-000021 )
+ ( /54D1D91A c_0805 C3 1000p
+  ( 1 N-000035 )
+  ( 2 GND )
  )
- ( /54D1D8CE $noname  R8 75R {Lib=R}
-  (    1 N-000035 )
-  (    2 N-000020 )
+ ( /54CCEE78 $noname$ D1 S5BC-13-F
+  ( 1 /VAUX )
+  ( 2 /VPORT_P )
  )
- ( /54D1D8CA $noname  R9 75R {Lib=R}
-  (    1 N-000035 )
-  (    2 N-000019 )
+ ( /54CCF019 SDIP04A D2 DF01S
+  ( 1 /VPORT_P )
+  ( 2 /VPORT_N )
+  ( 3 /VPoE_1- )
+  ( 4 /VPoE_1+ )
  )
- ( /54D1D89A $noname  R11 75R {Lib=R}
-  (    1 N-000035 )
-  (    2 N-000018 )
+ ( /54CCF024 SDIP04A D3 DF01S
+  ( 1 /VPORT_P )
+  ( 2 /VPORT_N )
+  ( 3 /VPoE_2- )
+  ( 4 /VPoE_2+ )
  )
- ( /54D0F1C7 $noname  J1 0826-1X1T-M1-F {Lib=GIGABIT_MAGJACK}
-  (    1 N-000019 )
-  (    2 /TRD3- )
-  (    3 /TRD3+ )
-  (    4 /TRD2+ )
-  (    5 /TRD2- )
-  (    6 N-000021 )
-  (    7 N-000020 )
-  (    8 /TRD4+ )
-  (    9 /TRD4- )
-  (   10 /TRD1- )
-  (   11 /TRD1+ )
-  (   12 N-000018 )
-  (   13 /VPoE_1+ )
-  (   14 /VPoE_1- )
-  (   15 /VPoE_2+ )
-  (   16 /VPoE_2- )
-  (   17 ? )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
-  (   21 GND )
-  (   22 GND )
-  (   23 GND )
-  (   24 GND )
+ ( /54CCEE1A DO-214AC(SMA) D4 SMAJ58CA
+  ( 1 /VPORT_P )
+  ( 2 /VPORT_N )
  )
- ( /54CCF024 $noname  D3 DF01S {Lib=DIODE_RECTIFIER}
-  (    1 /VPORT_P )
-  (    2 /VPORT_N )
-  (    3 /VPoE_2- )
-  (    4 /VPoE_2+ )
+ ( /54D0F1C7 $noname$ J1 0826-1X1T-M1-F
+  ( 1 N-000019 )
+  ( 2 /TRD3- )
+  ( 3 /TRD3+ )
+  ( 4 /TRD2+ )
+  ( 5 /TRD2- )
+  ( 6 N-000021 )
+  ( 7 N-000020 )
+  ( 8 /TRD4+ )
+  ( 9 /TRD4- )
+  ( 10 /TRD1- )
+  ( 11 /TRD1+ )
+  ( 12 N-000018 )
+  ( 13 /VPoE_1+ )
+  ( 14 /VPoE_1- )
+  ( 15 /VPoE_2+ )
+  ( 16 /VPoE_2- )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 GND )
+  ( 22 GND )
+  ( 23 GND )
+  ( 24 GND )
  )
- ( /54CCF019 $noname  D2 DF01S {Lib=DIODE_RECTIFIER}
-  (    1 /VPORT_P )
-  (    2 /VPORT_N )
-  (    3 /VPoE_1- )
-  (    4 /VPoE_1+ )
+ ( /54D1E09D $noname$ J2 RJHSE-5080
+  ( 1 /TRD1+ )
+  ( 2 /TRD1- )
+  ( 3 /TRD2+ )
+  ( 4 /TRD2- )
+  ( 5 /TRD3+ )
+  ( 6 /TRD3- )
+  ( 7 /TRD4+ )
+  ( 8 /TRD4- )
+  ( 9 ? )
  )
- ( /54CCEE78 $noname  D1 S5BC-13-F {Lib=DIODESCH}
-  (    1 /VAUX )
-  (    2 /VPORT_P )
+ ( /54CCC798 PIN_ARRAY_3X1 JP1 JUMPER3
+  ( 1 N-000023 )
+  ( 2 N-000030 )
+  ( 3 /VPORT_P )
  )
- ( /54CCEE1A $noname  D4 SMAJ58CA {Lib=TVS}
-  (    1 /VPORT_P )
-  (    2 /VPORT_N )
+ ( /54C01877 PIN_ARRAY_2X1 P1 CONN_01X02
+  ( 1 GND )
+  ( 2 /VAUX )
  )
- ( /54CCEA67 $noname  R7 100k {Lib=R}
-  (    1 /AUX )
-  (    2 GND )
+ ( /54CA5C1E PIN_ARRAY_2X1 P2 CONN_01X02
+  ( 1 /vout_5V@2A )
+  ( 2 GND )
  )
- ( /54CCEA65 $noname  R6 150k {Lib=R}
-  (    1 /VAUX )
-  (    2 /AUX )
+ ( /54CA5C28 PIN_ARRAY_2X1 P3 CONN_01X02
+  ( 1 /VAUX )
+  ( 2 GND )
  )
- ( /54CCE115 $noname  R5 178k {Lib=R}
-  (    1 N-000033 )
-  (    2 /VPORT_N )
+ ( /54CCC80B SM0805 R1 93.1k
+  ( 1 N-000024 )
+  ( 2 GND )
  )
- ( /54CCE112 $noname  R4 4.42k {Lib=R}
-  (    1 N-000028 )
-  (    2 /VPORT_N )
+ ( /54CCC7FE SM0805 R2 89.4k
+  ( 1 N-000031 )
+  ( 2 GND )
  )
- ( /54CCE0C1 $noname  R3 24.9k {Lib=R}
-  (    1 /VPORT_P )
-  (    2 N-000027 )
+ ( /54CCE0C1 SM0805 R3 24.9k
+  ( 1 /VPORT_P )
+  ( 2 N-000027 )
  )
- ( /54CCC80B $noname  R1 93.1k {Lib=R}
-  (    1 N-000024 )
-  (    2 GND )
+ ( /54CCE112 SM0805 R4 4.42k
+  ( 1 N-000028 )
+  ( 2 /VPORT_N )
  )
- ( /54CCC7FE $noname  R2 89.4k {Lib=R}
-  (    1 N-000031 )
-  (    2 GND )
+ ( /54CCE115 SM0805 R5 178k
+  ( 1 N-000033 )
+  ( 2 /VPORT_N )
  )
- ( /54CCC798 $noname  JP1 JUMPER3 {Lib=JUMPER3}
-  (    1 N-000023 )
-  (    2 N-000030 )
-  (    3 /VPORT_P )
+ ( /54CCEA65 SM0805 R6 150k
+  ( 1 /VAUX )
+  ( 2 /AUX )
  )
- ( /54CCC54E $noname  C2 100u {Lib=C}
-  (    1 /vout_5V@2A )
-  (    2 GND )
+ ( /54CCEA67 SM0805 R7 100k
+  ( 1 /AUX )
+  ( 2 GND )
  )
- ( /54CCC53D $noname  C1 4.7u {Lib=C}
-  (    1 /VPORT_P )
-  (    2 GND )
+ ( /54D1D8CE SM0805 R8 75R
+  ( 1 N-000035 )
+  ( 2 N-000020 )
  )
- ( /54CA5C28 $noname  P3 CONN_01X02 {Lib=CONN_01X02}
-  (    1 /VAUX )
-  (    2 GND )
+ ( /54D1D8CA SM0805 R9 75R
+  ( 1 N-000035 )
+  ( 2 N-000019 )
  )
- ( /54CA5C1E $noname  P2 CONN_01X02 {Lib=CONN_01X02}
-  (    1 /vout_5V@2A )
-  (    2 GND )
+ ( /54D1D8D1 SM0805 R10 75R
+  ( 1 N-000035 )
+  ( 2 N-000021 )
  )
- ( /54C966D1 $noname  U1 NCP1092 {Lib=NCP1092}
-  (    1 N-000033 )
-  (    2 N-000028 )
-  (    3 N-000027 )
-  (    4 /VPORT_N )
-  (    5 GND )
-  (    6 N-000023 )
-  (    7 /AUX )
-  (    8 /VPORT_P )
+ ( /54D1D89A SM0805 R11 75R
+  ( 1 N-000035 )
+  ( 2 N-000018 )
  )
- ( /54C96627 $noname  U2 LTM8050 {Lib=LTM8050}
-  (   A1 /vout_5V@2A )
-  (   A2 /vout_5V@2A )
-  (   A3 /vout_5V@2A )
-  (   A4 /vout_5V@2A )
-  (   A5 GND )
-  (   A6 GND )
-  (   A7 GND )
-  (   B1 /vout_5V@2A )
-  (   B2 /vout_5V@2A )
-  (   B3 /vout_5V@2A )
-  (   B4 /vout_5V@2A )
-  (   B5 GND )
-  (   B6 GND )
-  (   B7 GND )
-  (   C1 /vout_5V@2A )
-  (   C2 /vout_5V@2A )
-  (   C3 /vout_5V@2A )
-  (   C4 /vout_5V@2A )
-  (   C5 GND )
-  (   C6 GND )
-  (   C7 GND )
-  (   D1 /vout_5V@2A )
-  (   D2 /vout_5V@2A )
-  (   D3 /vout_5V@2A )
-  (   D4 /vout_5V@2A )
-  (   D5 GND )
-  (   D6 GND )
-  (   D7 GND )
-  (   E1 GND )
-  (   E2 GND )
-  (   E3 GND )
-  (   E4 GND )
-  (   E5 GND )
-  (   E6 GND )
-  (   E7 GND )
-  (   F1 GND )
-  (   F2 GND )
-  (   F3 GND )
-  (   F4 GND )
-  (   F5 GND )
-  (   F6 GND )
-  (   F7 GND )
-  (   G1 GND )
-  (   G2 GND )
-  (   G3 GND )
-  (   G4 GND )
-  (   G5 N-000032 )
-  (   G6 GND )
-  (   G7 N-000024 )
-  (   H5 N-000032 )
-  (   H6 GND )
-  (   H7 ? )
-  (   J1 /VPORT_P )
-  (   J2 /VPORT_P )
-  (   J3 /VPORT_P )
-  (   J5 GND )
-  (   J6 GND )
-  (   J7 ? )
-  (   K1 /VPORT_P )
-  (   K2 /VPORT_P )
-  (   K3 /VPORT_P )
-  (   K5 GND )
-  (   K6 GND )
-  (   K7 N-000031 )
-  (   L1 /VPORT_P )
-  (   L2 /VPORT_P )
-  (   L3 /VPORT_P )
-  (   L5 N-000030 )
-  (   L6 GND )
-  (   L7 GND )
+ ( /54C966D1 so-8 U1 NCP1092
+  ( 1 N-000033 )
+  ( 2 N-000028 )
+  ( 3 N-000027 )
+  ( 4 /VPORT_N )
+  ( 5 GND )
+  ( 6 N-000023 )
+  ( 7 /AUX )
+  ( 8 /VPORT_P )
  )
- ( /54C01877 $noname  P1 CONN_01X02 {Lib=CONN_01X02}
-  (    1 GND )
-  (    2 /VAUX )
+ ( /54C96627 $noname$ U2 LTM8050
+  ( A1 /vout_5V@2A )
+  ( A2 /vout_5V@2A )
+  ( A3 /vout_5V@2A )
+  ( A4 /vout_5V@2A )
+  ( A5 GND )
+  ( A6 GND )
+  ( A7 GND )
+  ( B1 /vout_5V@2A )
+  ( B2 /vout_5V@2A )
+  ( B3 /vout_5V@2A )
+  ( B4 /vout_5V@2A )
+  ( B5 GND )
+  ( B6 GND )
+  ( B7 GND )
+  ( C1 /vout_5V@2A )
+  ( C2 /vout_5V@2A )
+  ( C3 /vout_5V@2A )
+  ( C4 /vout_5V@2A )
+  ( C5 GND )
+  ( C6 GND )
+  ( C7 GND )
+  ( D1 /vout_5V@2A )
+  ( D2 /vout_5V@2A )
+  ( D3 /vout_5V@2A )
+  ( D4 /vout_5V@2A )
+  ( D5 GND )
+  ( D6 GND )
+  ( D7 GND )
+  ( E1 GND )
+  ( E2 GND )
+  ( E3 GND )
+  ( E4 GND )
+  ( E5 GND )
+  ( E6 GND )
+  ( E7 GND )
+  ( F1 GND )
+  ( F2 GND )
+  ( F3 GND )
+  ( F4 GND )
+  ( F5 GND )
+  ( F6 GND )
+  ( F7 GND )
+  ( G1 GND )
+  ( G2 GND )
+  ( G3 GND )
+  ( G4 GND )
+  ( G5 N-000032 )
+  ( G6 GND )
+  ( G7 N-000024 )
+  ( H5 N-000032 )
+  ( H6 GND )
+  ( H7 ? )
+  ( J1 /VPORT_P )
+  ( J2 /VPORT_P )
+  ( J3 /VPORT_P )
+  ( J5 GND )
+  ( J6 GND )
+  ( J7 ? )
+  ( K1 /VPORT_P )
+  ( K2 /VPORT_P )
+  ( K3 /VPORT_P )
+  ( K5 GND )
+  ( K6 GND )
+  ( K7 N-000031 )
+  ( L1 /VPORT_P )
+  ( L2 /VPORT_P )
+  ( L3 /VPORT_P )
+  ( L5 N-000030 )
+  ( L6 GND )
+  ( L7 GND )
  )
 )
 *
 { Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
 $component C3
  SM*
  C?
  C1-1
 $endlist
-$component R10
+$component D1
+ D?
+ S*
+$endlist
+$component P1
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$endlist
+$component P2
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$endlist
+$component P3
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
  R?
  SM0603
  SM0805
@@ -241,6 +315,13 @@ $component R9
  R?-*
  SM1206
 $endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component R11
  R?
  SM0603
@@ -248,273 +329,5 @@ $component R11
  R?-*
  SM1206
 $endlist
-$component D1
- D?
- S*
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component P3
- Pin_Header_Straight_1X02
- Pin_Header_Angled_1X02
- Socket_Strip_Straight_1X02
- Socket_Strip_Angled_1X02
-$endlist
-$component P2
- Pin_Header_Straight_1X02
- Pin_Header_Angled_1X02
- Socket_Strip_Straight_1X02
- Socket_Strip_Angled_1X02
-$endlist
-$component P1
- Pin_Header_Straight_1X02
- Pin_Header_Angled_1X02
- Socket_Strip_Straight_1X02
- Socket_Strip_Angled_1X02
-$endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 5 "/TRD2-" "TRD2-"
- J1 5
- J2 4
-Net 6 "/TRD3+" "TRD3+"
- J2 5
- J1 3
-Net 7 "/TRD3-" "TRD3-"
- J2 6
- J1 2
-Net 8 "/TRD4+" "TRD4+"
- J1 8
- J2 7
-Net 9 "/TRD4-" "TRD4-"
- J1 9
- J2 8
-Net 11 "/TRD1-" "TRD1-"
- J2 2
- J1 10
-Net 12 "/TRD1+" "TRD1+"
- J2 1
- J1 11
-Net 13 "/TRD2+" "TRD2+"
- J2 3
- J1 4
-Net 14 "/VPoE_2-" "VPoE_2-"
- D3 3
- J1 16
-Net 15 "/VPoE_2+" "VPoE_2+"
- J1 15
- D3 4
-Net 16 "/VPoE_1-" "VPoE_1-"
- D2 3
- J1 14
-Net 17 "/VPoE_1+" "VPoE_1+"
- J1 13
- D2 4
-Net 18 "" ""
- R11 2
- J1 12
-Net 19 "" ""
- R9 2
- J1 1
-Net 20 "" ""
- R8 2
- J1 7
-Net 21 "" ""
- R10 2
- J1 6
-Net 22 "/vout_5V@2A" "vout_5V@2A"
- U2 C2
- U2 B2
- U2 D2
- U2 B3
- U2 D4
- U2 C4
- U2 B4
- U2 A4
- U2 D3
- U2 C3
- U2 A3
- U2 C1
- C2 1
- U2 A1
- U2 B1
- P2 1
- U2 D1
- U2 A2
-Net 23 "" ""
- U1 6
- JP1 1
-Net 24 "" ""
- U2 G7
- R1 1
-Net 27 "" ""
- U1 3
- R3 2
-Net 28 "" ""
- R4 1
- U1 2
-Net 29 "/VAUX" "VAUX"
- R6 1
- P3 1
- P1 2
- D1 1
-Net 30 "" ""
- U2 L5
- JP1 2
-Net 31 "" ""
- R2 1
- U2 K7
-Net 32 "" ""
- U2 H5
- U2 G5
-Net 33 "" ""
- R5 1
- U1 1
-Net 34 "/AUX" "AUX"
- U1 7
- R7 1
- R6 2
-Net 35 "" ""
- C3 1
- R10 1
- R8 1
- R9 1
- R11 1
-Net 36 "/VPORT_N" "VPORT_N"
- D3 2
- D2 2
- U1 4
- R4 2
- R5 2
- D4 2
-Net 37 "GND" "GND"
- J1 23
- C1 2
- U2 E1
- U2 L7
- U2 F7
- U2 E7
- U2 D7
- U2 C7
- U2 J6
- C2 2
- U2 K6
- R2 2
- R1 2
- U2 A7
- R7 2
- U2 D5
- C3 2
- U2 L6
- U2 G3
- U2 B7
- U2 C5
- U2 B5
- U2 E5
- U2 F5
- U2 J5
- U2 K5
- U2 A6
- U2 B6
- U2 C6
- U2 D6
- U2 A5
- U2 G4
- U2 F4
- U2 E4
- U2 F3
- U2 E3
- U2 G2
- U2 F2
- U2 E2
- U2 G1
- U2 E6
- U2 F6
- U2 G6
- U2 H6
- U2 F1
- P1 1
- J1 21
- J1 22
- J1 24
- P3 2
- P2 2
- U1 5
-Net 38 "/VPORT_P" "VPORT_P"
- D1 2
- D4 1
- D2 1
- D3 1
- C1 1
- U1 8
- U2 J1
- JP1 3
- R3 1
- U2 L3
- U2 K3
- U2 J3
- U2 L2
- U2 K2
- U2 J2
- U2 L1
- U2 K1
-}
-#End
