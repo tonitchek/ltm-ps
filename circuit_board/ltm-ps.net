@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 04 Feb 2015 01:11:14 PM CET
+# EESchema Netlist Version 1.1 created  Tue 10 Feb 2015 03:19:59 PM EST
 (
  ( /54CCC53D c_2220 C1 4.7u
   ( 1 /VPORT_P )
@@ -12,7 +12,7 @@
   ( 1 N-000035 )
   ( 2 GND )
  )
- ( /54CCEE78 $noname$ D1 S5BC-13-F
+ ( /54CCEE78 Diode-SMC_Standard_RevA_26July2010 D1 S5BC-13-F
   ( 1 /VAUX )
   ( 2 /VPORT_P )
  )
@@ -32,7 +32,7 @@
   ( 1 /VPORT_P )
   ( 2 /VPORT_N )
  )
- ( /54D0F1C7 $noname$ J1 0826-1X1T-M1-F
+ ( /54D0F1C7 RJ45_GIGABIT-MAGJACK J1 0826-1X1T-M1-F
   ( 1 N-000019 )
   ( 2 /TRD3- )
   ( 3 /TRD3+ )
@@ -58,7 +58,7 @@
   ( 23 GND )
   ( 24 GND )
  )
- ( /54D1E09D $noname$ J2 RJHSE-5080
+ ( /54D1E09D RJ45_8N J2 RJHSE-5080
   ( 1 /TRD1+ )
   ( 2 /TRD1- )
   ( 3 /TRD2+ )
@@ -140,7 +140,7 @@
   ( 7 /AUX )
   ( 8 /VPORT_P )
  )
- ( /54C96627 $noname$ U2 LTM8050
+ ( /54C96627 BGA70-linear_standard U2 LTM8050
   ( A1 /vout_5V@2A )
   ( A2 /vout_5V@2A )
   ( A3 /vout_5V@2A )

@@ -1,0 +1,61 @@
+eeschema (2012-apr-16-27)-stable  >> Creation date: Tue 10 Feb 2015 03:20:29 PM EST
+
+#Cmp ( order = Reference )
+| C1         4.7u        ;             
+| C2         100u        ;             
+| C3         1000p       ;             
+| D1         S5BC-13-F   ;             
+| D2         DF01S       ;             
+| D3         DF01S       ;             
+| D4         SMAJ58CA    ;             
+| J1         0826-1X1T-M1-F;             
+| J2         RJHSE-5080  ;             
+| JP1        JUMPER3     ;             
+| P1         CONN_01X02  ;             
+| P2         CONN_01X02  ;             
+| P3         CONN_01X02  ;             
+| R1         93.1k       ;             
+| R2         89.4k       ;             
+| R3         24.9k       ;             
+| R4         4.42k       ;             
+| R5         178k        ;             
+| R6         150k        ;             
+| R7         100k        ;             
+| R8         75R         ;             
+| R9         75R         ;             
+| R10        75R         ;             
+| R11        75R         ;             
+| U1         NCP1092     ;             
+| U2         LTM8050     ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| 0826-1X1T-M1-F J1        ;             
+| 1000p        C3        ;             
+| 100k         R7        ;             
+| 100u         C2        ;             
+| 150k         R6        ;             
+| 178k         R5        ;             
+| 24.9k        R3        ;             
+| 4.42k        R4        ;             
+| 4.7u         C1        ;             
+| 75R          R8        ;             
+| 75R          R9        ;             
+| 75R          R10       ;             
+| 75R          R11       ;             
+| 89.4k        R2        ;             
+| 93.1k        R1        ;             
+| CONN_01X02   P1        ;             
+| CONN_01X02   P2        ;             
+| CONN_01X02   P3        ;             
+| DF01S        D2        ;             
+| DF01S        D3        ;             
+| JUMPER3      JP1       ;             
+| LTM8050      U2        ;             
+| NCP1092      U1        ;             
+| RJHSE-5080   J2        ;             
+| S5BC-13-F    D1        ;             
+| SMAJ58CA     D4        ;             
+#End Cmp
+
+#End List

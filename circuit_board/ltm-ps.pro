@@ -1,6 +1,6 @@
-update=Wed 04 Feb 2015 10:45:21 AM CET
+update=Tue 10 Feb 2015 03:20:35 PM EST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -69,8 +69,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=onsemi
-[general]
-version=1
 [pcbnew]
 version=1
 PadDrlX=320
@@ -108,3 +106,5 @@ LibName15=smd_capacitors
 LibName16=smd_diodes
 LibName17=smd_resistors
 LibName18=smd_transistors
+[general]
+version=1

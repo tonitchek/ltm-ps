@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 04 Feb 2015 01:11:28 PM CET
+EESchema Schematic File Version 2  date Tue 10 Feb 2015 03:19:18 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:onsemi
-LIBS:ltm-ps-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
