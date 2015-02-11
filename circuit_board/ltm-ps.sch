@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 10 Feb 2015 03:19:18 PM EST
+EESchema Schematic File Version 2  date Wed 11 Feb 2015 09:15:43 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:onsemi
+LIBS:ltm-ps-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "4 feb 2015"
+Date "11 feb 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,7 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 10800 6950
+$Comp
+L RJ45-8 J2
+U 1 1 54DB63BE
+P 10450 6400
+F 0 "J2" V 10000 6150 60  0000 C CNN
+F 1 "RJHSE-5080" V 10900 6500 60  0000 C CNN
+	1    10450 6400
+	0    1    1    0   
+$EndComp
 Text Notes 10675 7000 2    60   ~ 0
 Farnell - 1860577
 Text Notes 2775 7475 2    60   ~ 0
@@ -492,15 +501,6 @@ Text Label 9900 6150 2    60   ~ 0
 TRD1-
 Text Label 9900 6050 2    60   ~ 0
 TRD1+
-$Comp
-L RJ45 J2
-U 1 1 54D1E09D
-P 10450 6400
-F 0 "J2" V 10000 6150 60  0000 C CNN
-F 1 "RJHSE-5080" V 10900 6400 60  0000 C CNN
-	1    10450 6400
-	0    1    1    0   
-$EndComp
 Text Label 3450 5625 0    60   ~ 0
 TRD4-
 Text Label 3450 5825 0    60   ~ 0

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Tue 10 Feb 2015 03:19:59 PM EST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Wed 11 Feb 2015 09:16:55 AM EST
 
 BeginCmp
 TimeStamp = /54CCC53D;
@@ -46,7 +46,7 @@ BeginCmp
 TimeStamp = /54CCEE1A;
 Reference = D4;
 ValeurCmp = SMAJ58CA;
-IdModule  = DO-214AC(SMA);
+IdModule  = Diode-SMA_Standard_RevA_26July2010;
 EndCmp
 
 BeginCmp
@@ -57,7 +57,7 @@ IdModule  = RJ45_GIGABIT-MAGJACK;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D1E09D;
+TimeStamp = /54DB63BE;
 Reference = J2;
 ValeurCmp = RJHSE-5080;
 IdModule  = RJ45_8N;
