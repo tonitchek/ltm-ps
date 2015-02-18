@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 11 Feb 2015 09:39:09 AM EST
+# EESchema Netlist Version 1.1 created  Sun 15 Feb 2015 04:25:31 PM EST
 (
  ( /54CCC53D c_2220 C1 4.7u
   ( 1 /VPORT_P )
@@ -129,7 +129,7 @@
   ( 1 N-000015 )
   ( 2 N-000020 )
  )
- ( /54C966D1 so-8 U1 NCP1092
+ ( /54C966D1 SO8E U1 NCP1092
   ( 1 N-000033 )
   ( 2 N-000028 )
   ( 3 N-000027 )
