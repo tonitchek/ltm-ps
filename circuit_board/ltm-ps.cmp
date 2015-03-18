@@ -1,185 +1,185 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sun 15 Feb 2015 04:25:31 PM EST
+Cmp-Mod V01 Created by Cvpcb (2015-03-16 BZR 5519)-product   date = Wed 18 Mar 2015 11:21:52 AM CET
 
 BeginCmp
 TimeStamp = /54CCC53D;
 Reference = C1;
 ValeurCmp = 4.7u;
-IdModule  = c_2220;
+IdModule  = Capacitors_SMD:C_2220;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCC54E;
 Reference = C2;
 ValeurCmp = 100u;
-IdModule  = c_1210;
+IdModule  = Capacitors_SMD:C_1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1D91A;
 Reference = C3;
 ValeurCmp = 1000p;
-IdModule  = c_0805;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCEE78;
 Reference = D1;
 ValeurCmp = S5BC-13-F;
-IdModule  = Diode-SMC_Standard_RevA_26July2010;
+IdModule  = Diodes_SMD:Diode-SMC_Standard;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCF019;
 Reference = D2;
 ValeurCmp = DF01S;
-IdModule  = SDIP04;
+IdModule  = libcms:SDIP04;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCF024;
 Reference = D3;
 ValeurCmp = DF01S;
-IdModule  = SDIP04;
+IdModule  = libcms:SDIP04;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCEE1A;
 Reference = D4;
 ValeurCmp = SMAJ58CA;
-IdModule  = Diode-SMA_Standard_RevA_26July2010;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D0F1C7;
 Reference = J1;
 ValeurCmp = 0826-1X1T-M1-F;
-IdModule  = RJ45_GIGABIT-MAGJACK;
+IdModule  = connect:RJ45_GIGABIT-MAGJACK;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DB63BE;
 Reference = J2;
 ValeurCmp = RJHSE-5080;
-IdModule  = RJ45_8N;
+IdModule  = connect:RJ45_8N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCC798;
 Reference = JP1;
 ValeurCmp = JUMPER3;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /54C01877;
 Reference = P1;
 ValeurCmp = CONN_01X02;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CA5C1E;
 Reference = P2;
 ValeurCmp = CONN_01X02;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CA5C28;
 Reference = P3;
 ValeurCmp = CONN_01X02;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCC80B;
 Reference = R1;
 ValeurCmp = 93.1k;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCC7FE;
 Reference = R2;
 ValeurCmp = 89.4k;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCE0C1;
 Reference = R3;
 ValeurCmp = 24.9k;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCE112;
 Reference = R4;
 ValeurCmp = 4.42k;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCE115;
 Reference = R5;
 ValeurCmp = 178k;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCEA65;
 Reference = R6;
 ValeurCmp = 150k;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCEA67;
 Reference = R7;
 ValeurCmp = 100k;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1D8CE;
 Reference = R8;
 ValeurCmp = 75R;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1D8CA;
 Reference = R9;
 ValeurCmp = 75R;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1D8D1;
 Reference = R10;
 ValeurCmp = 75R;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1D89A;
 Reference = R11;
 ValeurCmp = 75R;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54C966D1;
 Reference = U1;
 ValeurCmp = NCP1092;
-IdModule  = SO8E;
+IdModule  = SMD_Packages:SOIC-8-N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54C96627;
 Reference = U2;
 ValeurCmp = LTM8050;
-IdModule  = BGA70-linear_standard;
+IdModule  = libcms:BGA70-linear_standard;
 EndCmp
 
 EndListe
