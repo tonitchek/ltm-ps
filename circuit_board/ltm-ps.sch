@@ -491,11 +491,11 @@ Text Label 9150 6150 2    60   ~ 0
 TRD4-
 Text Label 9150 6050 2    60   ~ 0
 TRD4+
-Text Label 9150 5950 2    60   ~ 0
-TRD3-
 Text Label 9150 5850 2    60   ~ 0
-TRD3+
+TRD3-
 Text Label 9150 5750 2    60   ~ 0
+TRD3+
+Text Label 9150 5950 2    60   ~ 0
 TRD2-
 Text Label 9150 5650 2    60   ~ 0
 TRD2+
@@ -662,7 +662,7 @@ $EndComp
 Text Notes 700  700  0    60   ~ 12
 Auxiliary source input - 7.5V to 58V
 Text Notes 8300 4150 0    60   ~ 12
-R1 sets LTM8050 switching frequency to 400kHz\nR2 sets LTM8050 output voltage to 5.2V
+R1 sets LTM8050 switching frequency to 400kHz\nR2 sets LTM8050 output voltage to 5.12V
 Text Notes 7550 2800 0    60   ~ 12
 For the prototype version, this jumper allows to select\nwhich signal will enable the DC/DC converter.\n- NCP1092 PGOOD\n- VIN (VPORT_P/Auxiliary source)
 $Comp
@@ -924,7 +924,7 @@ L R R2
 U 1 1 54CCC7FE
 P 8050 4100
 F 0 "R2" V 8130 4100 50  0000 C CNN
-F 1 "89.4k" V 8057 4101 50  0000 C CNN
+F 1 "90.9k" V 8057 4101 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" H 8050 4100 60  0001 C CNN
 F 3 "" H 8050 4100 60  0001 C CNN
 	1    8050 4100
